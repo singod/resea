@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "jsx": "react-jsx",
+    "lib": ["ES2017", "dom"],
+    "moduleDetection": "force",
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "resea": ["packages/resea/src"]
+    }
+  },
+  "include": ["packages"],
+  "exclude": ["node_modules", "dist"]
+}
