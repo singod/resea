@@ -1,0 +1,62 @@
+{
+  "name": "resea",
+  "version": "1.0.0",
+  "description": "A state management tool for the React framework",
+  "packageManager": "pnpm@10.14.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/singod/reSea#readme",
+  "bugs": {
+    "url": "https://github.com/singod/reSea/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singod/reSea.git"
+  },
+  "author": "arts <arts1986@126.com>",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup",
+    "playground-react": "vite playground/react",
+    "playground-nextjs": "pnpm next dev ./playground/nextjs",
+    "test": "vitest",
+    "semantic-release": "semantic-release",
+    "test-dts": "tsc -p ./test-dts/tsconfig.json"
+  },
+  "keywords": [
+    "react",
+    "resea",
+    "react-pinia",
+    "react-store",
+    "redux",
+    "zustand",
+    "store",
+    "pinia",
+    "vue",
+    "state-management"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@maoism/runtime-core": "^3.4.13"
+  }
+}

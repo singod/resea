@@ -1,0 +1,17 @@
+{
+  "name": "playground-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --port 10063"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "next": "^15.4.6",
+    "antd": "4.24.16"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "playground-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 10062"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "antd": "4.24.16",
+    "vite": "^7.1.2"
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "text": "guide",
+    "link": "/guide/start/introduction",
+    "activeMatch": "/guide/"
+  },
+  {
+    "text": "主站",
+    "link": "http://www.jemui.com/"
+  },
+  {
+    "text": "Github",
+    "link": "https://github.com/singod/reSea"
+  },
+  {
+    "text": "Gitee",
+    "link": "https://gitee.com/arts1986/resea"
+  }
+]
