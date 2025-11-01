@@ -1,6 +1,6 @@
 {
   "name": "resea",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A state management tool for the React framework",
   "packageManager": "pnpm@10.14.0",
   "type": "module",
@@ -18,13 +18,13 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/singod/reSea#readme",
+  "homepage": "https://github.com/singod/resea#readme",
   "bugs": {
-    "url": "https://github.com/singod/reSea/issues"
+    "url": "https://github.com/singod/resea/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/singod/reSea.git"
+    "url": "git+https://github.com/singod/resea.git"
   },
   "author": "arts <arts1986@126.com>",
   "private": false,
@@ -42,8 +42,6 @@
   "keywords": [
     "react",
     "resea",
-    "react-pinia",
-    "react-store",
     "redux",
     "zustand",
     "store",
